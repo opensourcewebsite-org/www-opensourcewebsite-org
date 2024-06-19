@@ -1,0 +1,22 @@
+global:
+  description: >
+    <b>Creating an Open and Democratic Online Community</b><br /><br />
+    We promote a free society where everyone can participate in decision-making through electronic voting and where open source guarantees data security.<br /><br />
+    We welcome everyone who shares our mission and is ready to contribute to the development of the community - developers, activists, volunteers, employees, partners, sponsors.<br /><br />
+    Join us and together we will create our future!
+
+github:
+  link1: Request a New Feature
+  link2: Report a Bug
+  link3: Ask a Question
+  link4: Help with Translations
+  link5: Terms of Use
+  link6: Privacy Policy
+
+langs:
+  en: English
+  ru: Русский
+
+# Please ignore everything bellow. Without it Jekyll throws a Liquid Exception.
+page:
+  description: please ignore, without this

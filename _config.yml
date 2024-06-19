@@ -1,0 +1,18 @@
+theme: jekyll-theme-cayman
+include: [".well-known"]
+
+repository: opensourcewebsite-org/www-opensourcewebsite-org
+baseurl: ""
+url: "https://opensourcewebsite.org"
+
+timezone: UTC
+encoding: "utf-8"
+
+# Plugins
+plugins:
+  - jekyll-multiple-languages-plugin
+
+# jekyll-multiple-languages-plugin settings:
+languages: ["en", "ru"]
+
+exclude_from_localizations: ["assets", "_sass", "_layouts", "_includes"]

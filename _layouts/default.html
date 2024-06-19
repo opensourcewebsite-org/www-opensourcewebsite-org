@@ -1,0 +1,38 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+{% include head.html %}
+
+<body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+        <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+        <h2 class="project-tagline"> {% translate page.description %} </h2>
+        <a href="https://app.OpenSourceWebsite.org" class="btn" title="Web App" rel="nofollow noreferrer noopener"><i class="fa-regular fa-window-maximize"></i> Web App</a><br />
+        <a href="https://t.me/OpenSourceWebsite_bot" class="btn" title="Telegram Bot" rel="nofollow noreferrer noopener" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram Bot</a>
+        <a href="https://t.me/OpenSourceWebsite" class="btn" title="Telegram Channel" rel="nofollow noreferrer noopener" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram Channel</a>
+        <a href="https://t.me/+2ZrW2NKBBKU2YmY9" class="btn" title="Telegram Group" rel="nofollow noreferrer noopener" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram Group</a>
+
+        {% include navbar.html %}
+
+    </header>
+
+    <main id="content" class="main-content" role="main">
+
+        {{ content }}
+
+        <footer class="site-footer">
+            <span class="site-footer-link1"><a href="https://github.com/opensourcewebsite-org/www-opensourcewebsite-org/issues" rel="nofollow noreferrer noopener" target="_blank">{% translate github.link1 %}</a></span><br />
+            <span class="site-footer-link2"><a href="https://github.com/opensourcewebsite-org/www-opensourcewebsite-org/issues" rel="nofollow noreferrer noopener" target="_blank">{% translate github.link2 %}</a></span><br />
+            <span class="site-footer-link3"><a href="https://github.com/opensourcewebsite-org/www-opensourcewebsite-org/issues" rel="nofollow noreferrer noopener" target="_blank">{% translate github.link3 %}</a></span><br />
+            <span class="site-footer-link4"><a href="https://github.com/opensourcewebsite-org/www-opensourcewebsite-org/blob/main/CONTRIBUTING.md" rel="nofollow noreferrer noopener" target="_blank">{% translate github.link4 %}</a></span><br />
+            <br />
+            <span><a href="/">Home</a></span> • <span class="site-footer-link5"><a href="/terms-of-use">{% translate github.link5 %}</a></span> • <span class="site-footer-link6"><a href="/privacy-policy">{% translate github.link6 %}</a></span>
+        </footer>
+    </main>
+</body>
+
+</html>
